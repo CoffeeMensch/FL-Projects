@@ -1,0 +1,10 @@
+/* write your styles here */
+
+#app-root {
+    display: flex;
+    justify-content: center;
+}
+
+#tableID {
+    padding: 100px;
+}

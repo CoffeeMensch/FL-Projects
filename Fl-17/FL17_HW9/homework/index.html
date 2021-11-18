@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 9 - JS DOM Events</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div id="task1">
+    <table>
+        <tbody>
+        <tr>
+            <td onclick="cellsTableFirstColomn(this)">Call</td>
+            <td onclick="cellsTableFirstColomn(this)">Call</td>
+            <td onclick="cellsTableFirstColomn(this)">Call</td>
+        </tr>
+        <tr>
+            <td onclick="cellsTable(this)">Call</td>
+            <td onclick="cellsTable(this)">Special cell</td>
+            <td onclick="cellsTable(this)">Call</td>
+        </tr>
+        <tr>
+            <td onclick="cellsTable(this)">Call</td>
+            <td onclick="cellsTable(this)">Call</td>
+            <td onclick="cellsTable(this)">Call</td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+
+<div id="task2Label"></div>
+
+<div id="task2">
+
+    <input type="tel" id="TelNum" placeholder="Type phone number in next format - +380*********">
+    <button onclick="submitPhonNumber()" id="buttonId">Send</button>
+
+</div>
+
+<div id="task3">
+    <img src="assets/court.png" alt="Contact image" id="fieldImg">
+    <img src="assets/ball.png" alt="Contact image" id="ballImg">
+
+</div>
+
+<script src="./index.js"></script>
+</body>
+
+</html>
